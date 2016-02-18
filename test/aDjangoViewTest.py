@@ -5,7 +5,7 @@ def oauth(req):
     try:
         code = req.GET.get('code')
         if code:
-            oauthClient = WechatOauth(code)
+            oauthClient = WechatOauth("APP_ID","APP_SECRET_KEY",code)
             if oauthClient.IsAvailable():
                 openID = oauthClient.getOpenID()
             else:
