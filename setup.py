@@ -1,4 +1,3 @@
-#encoding:utf-8
 import codecs
 import os
 import sys
@@ -10,24 +9,22 @@ except:
 
 def read(fname):
     return codecs.open(os.path.join(os.path.dirname(__file__), fname)).read()
- 
- 
- 
+
 NAME = "wechatOauth"
- 
+
 PACKAGES = ["wechatOauth",]
  
-DESCRIPTION = "this is a test package for packing python liberaries tutorial."
+DESCRIPTION = "A python SDK that use to wechat oauth verification"
  
 LONG_DESCRIPTION = read("README.rst")
  
-KEYWORDS = "test mymusise python package"
+KEYWORDS = "wechat oauth python"
  
-AUTHOR = "Mymusise"
+AUTHOR = "mymusise"
  
-AUTHOR_EMAIL = "youremail@email.com"
+AUTHOR_EMAIL = "mymusise1@gmail.com"
  
-URL = "http://blog.mymusise.com/"
+URL = "https://github.com/mymusise/wechat-oauth"
  
 VERSION = "0.0.1"
  
