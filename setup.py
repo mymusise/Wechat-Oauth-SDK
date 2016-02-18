@@ -16,7 +16,7 @@ PACKAGES = ["wechatOauth",]
  
 DESCRIPTION = "A python SDK that use to wechat oauth verification"
  
-LONG_DESCRIPTION = read("README.rst")
+LONG_DESCRIPTION = read("README")
  
 KEYWORDS = "wechat oauth python"
  
@@ -26,7 +26,7 @@ AUTHOR_EMAIL = "mymusise1@gmail.com"
  
 URL = "https://github.com/mymusise/wechat-oauth"
  
-VERSION = "0.0.1"
+VERSION = "0.0.3"
  
 LICENSE = "MIT"
  
@@ -48,6 +48,7 @@ setup(
     license = LICENSE,
     packages = PACKAGES,
     package_dir={'wechatOauth':'src'},
+    include_package_data=True,
     zip_safe=True,
 )
  

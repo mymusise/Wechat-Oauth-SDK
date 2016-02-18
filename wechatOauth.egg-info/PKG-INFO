@@ -1,13 +1,15 @@
 Metadata-Version: 1.1
 Name: wechatOauth
-Version: 0.0.1
+Version: 0.0.3
 Summary: A python SDK that use to wechat oauth verification
 Home-page: https://github.com/mymusise/wechat-oauth
 Author: mymusise
 Author-email: mymusise1@gmail.com
 License: MIT
-Description: UNKNOWN
-Keywords: oauth wechat python
+Description: ===
+        A python SDK that use to wechat oauth verification
+        ===
+Keywords: wechat oauth python
 Platform: UNKNOWN
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python
