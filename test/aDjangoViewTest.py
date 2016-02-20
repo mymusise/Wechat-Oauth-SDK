@@ -1,4 +1,4 @@
-from wechatOauth.WechatOauth import WechatOauth
+from wechatOauth.oauth import WechatOauth
 from django.http import HttpResponseRedirect
 
 def oauth(req):
