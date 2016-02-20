@@ -17,14 +17,12 @@ class WecharTemplate:
         return JsonRespone(url,data)
 
     def getTemplateList(self,templateID):
-        url = self._getTemplateListUrl
-        data = """{
-            "template_id_short": "TM000%s",
-        }"""%('')
+        url  = self._getTemplateListUrl
+        data = ""
         return JsonRespone(url,data)
 
     def sendTemplateMessage(self,openID,templateID,data):
-        url = self._sendTemplateMessageUrl
+        url  = self._sendTemplateMessageUrl
         data = """ {
            "touser":"%s",
            "template_id":"%s",
