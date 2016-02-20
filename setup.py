@@ -26,7 +26,7 @@ AUTHOR_EMAIL = "mymusise1@gmail.com"
  
 URL = "https://github.com/mymusise/wechat-oauth"
  
-VERSION = "0.0.3"
+VERSION = "0.0.4"
  
 LICENSE = "MIT"
  
