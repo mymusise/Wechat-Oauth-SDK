@@ -21,12 +21,12 @@ class WecharTemplate:
         data = ""
         return JsonRespone(url,data)
 
-    def sendTemplateMessage(self,openID,templateID,data):
+    def sendTemplateMessage(self,openID,templateID,templateUrl,data):
         url  = self._sendTemplateMessageUrl
         data = """ {
            "touser":"%s",
            "template_id":"%s",
-           "url":"http://blog.mymusise.com",            
+           "url":"%s",            
            "data":%s
-        }"""%(openID,templateID,data)
+        }"""%(openID,templateID,templateUrl,data)
         return JsonRespone(url,data)
