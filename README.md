@@ -97,11 +97,11 @@ def oauth(req):
   - 返回：JSON代码
 
 
-####wechatOauth.template.WecharTemplate
+####wechatOauth.template.WechatTemplate
 
 发送模板消息
 
-- 初始化 **WecharTemplate(ACCESS_TOKEN)**
+- 初始化 **WechatTemplate(ACCESS_TOKEN)**
 
 - 函数 getTemplateID：
   - 描述：通过MID来获取完整的TemplateID

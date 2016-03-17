@@ -1,7 +1,7 @@
 #encoding:utf-8
-from wechatOauth.template import WecharTemplate
+from wechatOauth.template import WechatTemplate
 
-tc = WecharTemplate("ACCESS_TOKEN")
+tc = WechatTemplate("ACCESS_TOKEN")
 
 data = """{
        "first": {

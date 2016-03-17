@@ -1,6 +1,6 @@
 from unit import JsonRespone
 
-class WecharTemplate:
+class WechatTemplate:
     def __init__(self,accessToken):
         self._accessToken = accessToken
         self._getTemplateIdUrl      = "https://api.weixin.qq.com/cgi-bin/template/api_add_template?access_token=%s"%self._accessToken
