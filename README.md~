@@ -22,20 +22,12 @@ python setup.py install
 ```
 
 
-##全局接口
+##全局借口
 
-用于一些别的借口调用的全局变量
+全局借口
 
-####wechatOauth.token.WechatToken
+####wechatOauth.customer.WechatToken
 
-用于获取access_token
-
-- 初始化 **WechatCustomer(APP_ID,APP_SECRET_KEY)**
-
-- 函数 get_access_token：
-  - 描述：主动向用户发送文本消息
-  - 参数：无
-  - 返回：access_token
 
 
 ##Oauth接口功能
