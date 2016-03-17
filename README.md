@@ -115,7 +115,7 @@ def oauth(req):
 
 - 函数 sendTemplateMessage：
   - 描述：发送Template模板内容给用户
-  - 参数：[openID]（String）， [openID]（String）， [data]（String）
+  - 参数：[openID]（String）， [templateID]（String）,[templateUrl](Sting)，[data]（String）
   - 返回：JSON代码
 
 
